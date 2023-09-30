@@ -1,0 +1,54 @@
+.header {
+    display: block;
+    padding : 80px 0;
+    text-align : center;
+    font-size : 30px;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 60vh;
+    transition: all .8s ease;
+}
+
+.link {
+    width: 45%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .8s ease;
+}
+
+.tab {
+    margin: 0 auto;
+    font-size: 50px;
+    transition: all .8s ease;
+}
+
+.vertical-line{
+    width: .1px;
+    border: 0.1px dashed darken($color-nav, 10);
+    height: 80%;
+}
+
+.certification,
+.resignation {
+    transition: all .8s ease;
+    height: 60px;
+
+    &-link {
+        height: 40px;
+    }
+
+    &-tab {
+        font-size: 16px;
+    }
+
+    &-line {
+        border: 0.1px dashed $color-nav;
+    }
+}

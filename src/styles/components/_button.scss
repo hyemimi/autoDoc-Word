@@ -1,0 +1,23 @@
+.btn {
+  margin : 0 auto;
+  width : 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height : 50px;
+  margin-top : 40px;
+  border-radius: 4px;
+  background-color : $color-primary;
+  border : none;
+  color : white;
+  transition: all .3s ease;
+  
+  &:hover {
+    background-color : darken($color: $color-primary, $amount: 10);
+  }
+
+  &:active {
+    background-color : darken($color: $color-primary, $amount: 20);
+  }
+
+}

@@ -1,0 +1,75 @@
+/** 재직증명서 퍼블리싱 */
+.container2 {
+    width: 724px;
+    margin: 50px auto;
+  .header-cer {  
+    margin-bottom : 20px; 
+    &-title {
+        font-size : 26px;
+        letter-spacing: 10px;
+        flex-direction: column;
+        font-weight: bold;
+        text-align : center;
+        hr {
+            margin : 0 auto;
+            width : 170px;
+            margin-top: 5px;
+            border : 1px solid #000;
+        }
+    }
+  }
+  
+  .info {
+    &-user {
+      padding: 3px 0;
+      &:nth-of-type(15){
+        padding-bottom : 0px;
+      }
+    }
+    &-reasons {
+      padding : 0px 1px 1px;
+        &-content {
+          height : 100%;
+        }
+      }
+  }  
+  .contents {
+   
+    border : 1px solid #000;
+    border-top : none;
+    padding: 25px 20px 0;
+    &-body {
+      margin-top : 15px;
+      margin-bottom: 120px;
+
+      &-title {
+        text-align: center;
+        margin-bottom: 7px;
+      }
+    }
+    .today {
+      margin-top : 120px;
+    }
+  }
+  
+  .footer {
+    padding: 0 0 0;
+    border : none;
+    margin-bottom : 60px;
+    font-size : 20px;
+    &-confirm {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      &-sign {
+   
+        text-align: center;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  
+   
+  }
+}
